@@ -775,405 +775,206 @@ p {
     background: #444444;
 }
 
-.ad__row {
-    padding: 50px 0;
+.title__row {
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 1px;
+}
+
+.title__top {
     display: flex;
-    position: relative;
-    height: 747px;
-    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.ad__img {
-    position: absolute;
-    z-index: -1;
-}
-
-.ad__title {
-    color: #FFF;
-    font-family: 'El Messiri';
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 143px 285px 286px 147px;
-    max-width: 1288px;
-}
-
-.ad__button {
-    flex-shrink: 0;
-    border-radius: 2px;
-    border: 1px solid #3C3A83;
-    background:#3C3A83;
-    padding: 21px 29px;
-    height: 72px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 148px;
-    top: 431px;
-}
-
-.ad__exit {
-    flex-shrink: 0;
-    border-radius: 3px;
-    border: 1px solid #CBCACA;
-    background: #FFF;
-    padding: 22px 119px 23px;
-    box-sizing: border-box;
-    height: 72px;
-    position: absolute;
-    top: 0;
-    right: -100px;
-}
-
-.ad__exit-item {
-    color:#3C3A83;
+.title__top-text1 {
+    color:#333;
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.ad__button-item {
-    color: #FFF;
+.title__top-text2 {
+    color:#939393;
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 
-.ad__svg-1 {
-    flex-shrink: 0;
-    position: absolute;
-    top: 343px;
-    left: -28px;
+.title__top svg {
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
-.ad__svg-2 {
-    flex-shrink: 0;
-    position: absolute;
-    top: 343px;
-    right: -28px;
+h1 {
+    margin: 0;
 }
 
-.ad__svg-3 {
-    flex-shrink: 0;
-    position: absolute;
-    top: 657px;
-    left: 845px;
-}
-
-.popular__row {
-    display: block;
-    padding: 55px 0;
-}
-
-.popular__title {
+.title__bottom {
     display: flex;
-    gap: 75px;
     align-items: center;
+    gap: 41px;
 }
 
-.popular__title-text {
+.title__bottom-text {
     color:#333;
     font-family: 'El Messiri';
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    white-space: nowrap;
+    max-width: 127px;
+    width: 100%;
 }
 
-.popular__line {
+.title__bottom-line {
     height: 1px;
-    background:#000;
     width: 100%;
+    background-color: #000;
 }
 
-.popular__items {
-    display: flex;
-    gap: 40px;
-    padding: 33px 0px 35px;
-}
-
-.popular__item-text {
-    color: #FFF;
-    font-family: 'El Messiri';
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    z-index: 1;
-    top: 145px;
-    left: 34px;
-    max-width: 200px;
-}
-
-.popular__item-text-2 {
-    color: #FFF;
-    font-family: 'El Messiri';
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    z-index: 1;
-    top: 114px;
-    left: 34px;
-    max-width: 200px;
-}
-
-.popular__item {
-    position: relative;
-}
-
-.popular__button {
-    flex-shrink: 0;
-    border-radius: 2px;
-    background: #3C3A83;
-    display: flex;
-    text-align: center;
-    max-width: 357px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.populaar__button-text {
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding: 21px 26px;
-}
-
-.discount__title {
-    gap: 58px;
-    display: flex;
-    align-items: center;
-}
-
-.discount__row {
-    display: block;
-    padding: 55px 0;
-    position: relative;
-}
-
-.discount__items {
-    display: flex;
-    gap: 40px;
-}
-
-.discount__item {
-    padding: 33px 0 35px;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    max-width: 400px;
-    width: 100%;
-}
-
-.discount__item-title {
-    border-radius: 2px;
-    border: 1px solid #939393;
-    background:#FFF;
-    color:#939393;
-    font-family: 'Montserrat';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.philosophy__left {
+    width: 33.4%;
+    padding: 161px 0px 306px 0px;
     box-sizing: border-box;
-    padding: 21px 0;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 
-.discount__item-main {
-    border-radius: 3px;
-    background: #FFF;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
-    position: relative;
-    height: 546px;
+.philosophy__row {
+    margin-bottom: 1px;
 }
 
-.discount__img-text1 {
-    width: 55px;
-    height: 55px;
-    flex-shrink: 0;
-    background-color: #FFF;
-    border-radius: 50%;
-    border: 1px solid #333;
-    color:#333;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 199px;
-    left: 308px;
+h2,
+h3,
+h4 {
+    margin: 0;
 }
 
-.discount__img-text2 {
-    width: 55px;
-    height: 55px;
-    flex-shrink: 0;
-    background-color: #333;
-    border-radius: 50%;
-    color:#FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 264px;
-    left: 308px;
-}
-
-.discount__item-img img {
-    position: absolute;
-    left: 21px;
-}
-
-.discount__item-text1 {
-    color:#3C3A83;
+.philosophy__left-title {
     font-family: 'El Messiri';
     font-size: 35px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    position: absolute;
-    top: 349px;
-    left: 16px;
+    color: #3C3A83;
+    margin-bottom: 33px;
+    margin-left: 2px;
 }
 
-.discount__item-text2 {
+.philosophy__left-text {
     color: #333;
     font-family: 'Montserrat';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: 406px;
-    left: 16px;
 }
 
-.discount__item-text3 {
-    color: #333;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    top: 446px;
-    left: 16px;
-}
-
-.discount__item-price {
-    display: flex;
-    gap: 28px;
-    position: absolute;
-    left: 16px;
-    top: 481px;
-    align-items: center;
-}
-
-.discount__item-price1 {
-    color:#3C3A83;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.discount__item-price2 {
-    color:#333;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    opacity: .5;
-    text-decoration: line-through;
-}
-
-.discount__item-button {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    background:#3C3A83;
-    box-shadow: 4px 4px 10px 0px rgba(62, 62, 62, 0.10);
-    padding: 13px 13px 12px 12px;
-    position: absolute;
-    top: 466px;
-    left: 325px;
-    box-sizing: border-box;
-}
-
-.discount__button-text {
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.discount__button {
-    border-radius: 2px;
-    background:#3C3A83;
-    padding: 21px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    max-width: 447px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.discount__svg-2 {
-    position: absolute;
-    top: 516px;
-    right: -28px;
-}
-
-.discount__svg-1 {
-    position: absolute;
-    top: 516px;
-    left: -28px;
-}
-
-.discount__item-title:hover {
-    cursor: pointer;
-    color: #4C4ABE;
-    border: 1px solid #4C4ABE;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.frequent__row {
-    display: block;
-    padding: 55px 0;
+.philosophy__right {
+    width: 59.7%;
+    margin-left: 119px;
     position: relative;
 }
 
-.discount {
-    margin-bottom: 9px;
+.philosophy__right img {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    z-index: 1;
 }
 
-.frequent {
-    margin-bottom: 59px;
+.philosophy__right-block {
+    width: 640px;
+    height: 458px;
+    flex-shrink: 0;
+    background-color: #EEF;
+    position: absolute;
+    top: 37px;
+    right: 0;
+    z-index: -1;
+}
+
+.philosophy__right-svg1 {
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.philosophy__right-svg2 {
+    position: absolute;
+    top: 92px;
+    right: 2px;
+}
+
+.philosophy__right-svg3 {
+    position: absolute;
+    top: 410px;
+    right: -26px;
+}
+
+.philosophy__right-svg4 {
+    position: absolute;
+    top: 464px;
+    right: -40px;
+}
+
+.information__row {
+    margin-bottom: 91px;
+}
+
+.information__left {
+    width: 62%;
+    position: relative;
+    margin-right: 106px;
+    height: 653px;
+}
+
+.information__left-block {
+    width: 640px;
+    height: 458px;
+    flex-shrink: 0;
+    background-color: #EEF;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 38px;
+}
+
+.information__left img {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    z-index: 1;
+}
+
+.information__left-svg1 {
+    position: absolute;
+    top: -37px;
+    right: 42px;
+}
+
+.information__left-svg2 {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+}
+
+.information__left-svg3 {
+    position: absolute;
+    top: 373px;
+    right: 14px;
+}
+
+.information__left-svg4 {
+    position: absolute;
+    top: 427px;
+    right: 0;
+}
+
+.information__right {
+    width: 31.7%;
+    padding: 126px 0px 291px 0px;
 }
