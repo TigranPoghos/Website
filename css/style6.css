@@ -1101,3 +1101,344 @@ h1 {
     background-color: #3C3A83;
     color: white;
 }
+
+.main__right-title {
+    margin-top: 34px;
+    margin-left: 12px;
+    margin-bottom: 26px;
+}
+
+.main__right-Filters {
+    display: flex;
+    padding: 18px 50px 18px 28px;
+}
+
+.main__right-filters {
+    display: block;
+    max-width: 939px;
+    width: 100%;
+}
+
+h3 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.right__filters-top {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.right-filters-bottom {
+    display: flex;
+}
+
+.right__filters-title {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right__filters-subtitle {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #939393;
+}
+
+.right__filters-block1 {
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #3C3A83;
+    background: #FFF;
+    max-width: 113px;
+    width: 100%;
+}
+
+.filters__block-text {
+    color: #3C3A83;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.filters__block-line {
+    width: 1px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    background-color: #c0c0c0;
+    margin-left: auto;
+    margin-right: 11px;
+    box-sizing: border-box;
+}
+
+.right__filters-block2 {
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #3C3A83;
+    background: #FFF;
+    max-width: 171px;
+    margin-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.right__filters-block3 {
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #3C3A83;
+    background: #FFF;
+    max-width: 171px;
+    margin-left: 15px;
+    margin-right: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.right__filters-line {
+    width: 1px;
+    height: 76px;
+    margin-right: 50px;
+    background: #CBCACA;
+}
+
+.right__filters-sort {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 24px;
+    padding-bottom: 13px;
+}
+
+.filters__sort-title {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #3C3A83;
+}
+
+.filters__sort-body {
+    padding: 18px 0px 18px 17px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    display: none;
+    border-radius: 3px;
+    border: 1px solid #CBCACA;
+    background: #FFF;
+}
+
+.filters__sort-head {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.h5__sort__body-text {
+    color:#3C3A83;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sort__body-line {
+    width: 164px;
+    height: 1px;
+    background: #CBCACA;
+    margin: 10px 16px 10px 0px;
+}
+
+.right__filters-sort:hover .filters__sort-body {
+    display: block;
+}
+
+.right__filters-sort:hover .filters__sort-head svg {
+    transform: rotate(180deg);
+}
+
+.filters__sort-head svg {
+    transition: .4s;
+}
+
+.main__right-product {
+    display: flex;
+    gap: 40px;
+    margin-top: 35px;
+}
+
+.discount__item-main {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    height: 546px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.discount__img-text1 {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 1px solid #333;
+    color:#333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 199px;
+    left: 308px;
+}
+
+.discount__img-text2 {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #333;
+    border-radius: 50%;
+    color:#FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 264px;
+    left: 308px;
+}
+
+.discount__item-img img {
+    position: absolute;
+    left: 21px;
+}
+
+.discount__item-text1 {
+    color:#3C3A83;
+    font-family: 'El Messiri';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 349px;
+    left: 16px;
+}
+
+.discount__item-text2 {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 406px;
+    left: 16px;
+}
+
+.discount__item-text3 {
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    left: 16px;
+}
+
+.discount__item-price {
+    display: flex;
+    gap: 28px;
+    position: absolute;
+    left: 16px;
+    top: 481px;
+    align-items: center;
+}
+
+.discount__item-price1 {
+    color:#3C3A83;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.discount__item-price2 {
+    color:#333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+.discount__item-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background:#3C3A83;
+    box-shadow: 4px 4px 10px 0px rgba(62, 62, 62, 0.10);
+    padding: 13px 13px 12px 12px;
+    position: absolute;
+    top: 466px;
+    left: 325px;
+    box-sizing: border-box;
+}
+
+.main__right-button {
+    border-radius: 2px;
+    border: 1px solid #3C3A83;
+    background: #FFF;
+    padding: 21px 41px 21px 42px;
+    color: var(--baden, #3C3A83);
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 27px auto 55px auto;
+    max-width: 271px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main__right-button:hover {
+    background: #3C3A83;
+    color: #FFF;
+}
