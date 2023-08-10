@@ -1091,9 +1091,6 @@ h1 {
     background-color: white;
     border-radius: 2px;
     border: 1px solid #3C3A83;
-}
-
-.main__left-button + .main__left-button {
     margin-top: 24px;
 }
 
@@ -1101,6 +1098,66 @@ h1 {
     background-color: #3C3A83;
     color: white;
 }
+
+.main__button-head {
+    max-width: 354px;
+    width: 100%;
+    display: flex;
+    padding: 21px 0;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #3C3A83;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #3C3A83;
+    margin-top: 24px;
+    position: relative;
+}
+
+.main__button-head:hover {
+    background-color: #3C3A83;
+    color: #FFF;
+}
+
+.main__button-catalog {
+    position: relative;
+}
+
+.main__button-body {
+    position: absolute;
+    z-index: 10;
+    height: 1794px;
+    top: -2336px;
+    display: none;
+    left: -70px;
+    right: -1392px;
+    border-radius: 3px;
+    background: #FFF;   
+}
+
+.main__button-catalog:hover .main__button-body {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main__right-title {
     margin-top: 34px;
